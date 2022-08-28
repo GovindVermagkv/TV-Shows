@@ -1,0 +1,137 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Ubuntu;
+}
+
+#main {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+
+#input {
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid red;
+    height: 20px;
+    text-transform: capitalize;
+}
+
+#input::placeholder {
+    color: white;
+    text-transform: capitalize;
+}
+
+#f1 {
+    color: white;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+    border: none;
+    font-weight: bold;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    color: green;
+    background-color: white;
+}
+
+.title {
+    color: white;
+    margin-bottom: 30px;
+}
+
+span {
+    font-size: 20px;
+    color: red;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+}
+
+#tvshows {
+    background-color: black;
+    width: 20%;
+    margin: 20px 30px;
+    border-radius: 20px;
+    padding: 50px;
+    justify-self: center;
+}
+
+#tvshows img {
+    width: 100%;
+    height: 350px;
+    margin: 10px 0px;
+    border-radius: 20px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.title>span {
+    font-size: 25px;
+    color: green;
+}
+
+p {
+    color: white;
+
+}
+
+#detail {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: rgba(255, 217, 0, 0.879);
+    transition: .5s;
+    text-decoration: none;
+}
+
+#detail:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+#detailArea {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+    background-color: aqua;
+}
