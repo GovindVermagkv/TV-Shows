@@ -30,16 +30,9 @@ btn.addEventListener("click", function (name) {
                     <a id="detail" href="detail.html" >Click me </a>
 
                     </div>`
-
-                    
-
-                    let dd=document.getElementById("tvshows")
-                    let dt=document.getElementById("detail")
-                    console.log(dt);
                    
 
                 container.innerHTML += result;
-                detailArea.innerHTML += result;
 
             }
             
